@@ -5,6 +5,7 @@ import './ProfileTab1.dart';
 import './SearchScreen1.dart';
 import './ChatBoxPage.dart';
 import './shopsnearmelist1.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class HomeScreen1 extends StatelessWidget {
   HomeScreen1({
@@ -17,53 +18,35 @@ class HomeScreen1 extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Transform.translate(
-            offset: Offset(117.0, 642.0),
-            child: Container(
-              width: 154.0,
-              height: 31.0,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(23.0),
-                color: const Color(0xffffffff),
-              ),
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(139.0, 19.0),
+            offset: Offset(126.0, 21.0),
             child: Text(
               'CANNACT',
               style: TextStyle(
                 fontFamily: 'Gilroy ☞',
-                fontSize: 20,
+                fontSize: 23,
                 color: const Color(0xffffffff),
-                letterSpacing: 6,
+                letterSpacing: 6.8999999999999995,
                 fontWeight: FontWeight.w300,
               ),
               textAlign: TextAlign.left,
             ),
           ),
           Transform.translate(
-            offset: Offset(346.62, 10.8),
-            child: SvgPicture.string(
-              _shapeSVG_cf5bc08bc2294399a64a550cc45aae1f,
-              allowDrawingOutsideViewBox: true,
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(21.0, 17.0),
+            offset: Offset(20.0, 21.0),
             child: Container(
-              width: 27.0,
+              width: 26.0,
               height: 28.0,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(6.0),
+                borderRadius: BorderRadius.circular(5.0),
                 color: const Color(0xffffffff),
               ),
             ),
           ),
           Transform.translate(
-            offset: Offset(95.0, 89.0),
+            offset: Offset(77.0, 113.0),
             child: Container(
-              width: 212.0,
-              height: 138.0,
+              width: 247.0,
+              height: 159.0,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(12.0),
                 color: const Color(0xff303030),
@@ -71,10 +54,58 @@ class HomeScreen1 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(348.0, 89.0),
+            offset: Offset(0.0, 113.0),
             child: Container(
-              width: 58.0,
-              height: 138.0,
+              width: 44.0,
+              height: 159.0,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.only(
+                  topRight: Radius.circular(12.0),
+                  bottomRight: Radius.circular(12.0),
+                ),
+                color: const Color(0xff141414),
+              ),
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(20.0, 331.0),
+            child: Container(
+              width: 358.0,
+              height: 43.0,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(5.0),
+                border: Border.all(width: 1.0, color: const Color(0xffffffff)),
+              ),
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(37.0, 343.0),
+            child: Text(
+              'Search',
+              style: TextStyle(
+                fontFamily: 'Gilroy ☞',
+                fontSize: 17,
+                color: const Color(0x42ffffff),
+                letterSpacing: 1.275,
+                fontWeight: FontWeight.w300,
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(345.82, 17.52),
+            child:
+                // Adobe XD layer: 'shopping_cart-24px' (group)
+                SvgPicture.string(
+              _shapeSVG_e6ead0791bb342afa401e1bf70b8070a,
+              allowDrawingOutsideViewBox: true,
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(355.0, 113.0),
+            child: Container(
+              width: 44.0,
+              height: 159.0,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(12.0),
@@ -85,146 +116,136 @@ class HomeScreen1 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(38.0, 284.0),
-            child: Container(
-              width: 330.0,
-              height: 37.0,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(5.0),
-                border: Border.all(width: 1.0, color: const Color(0xffffffff)),
-              ),
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(334.26, 290.78),
-            child: SvgPicture.string(
-              _shapeSVG_b6670ce01404426e9c14ee36faadf52f,
+            offset: Offset(340.46, 337.22),
+            child:
+                // Adobe XD layer: 'search-24px' (group)
+                SvgPicture.string(
+              _shapeSVG_8698c415c32543a093799b4da145de6b,
               allowDrawingOutsideViewBox: true,
             ),
           ),
           Transform.translate(
-            offset: Offset(44.0, 346.0),
+            offset: Offset(27.0, 411.0),
             child: Container(
-              width: 126.0,
-              height: 162.0,
+              width: 147.0,
+              height: 189.0,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12.0),
-                border: Border.all(width: 2.0, color: const Color(0xffffffff)),
+                borderRadius: BorderRadius.circular(15.0),
+                border: Border.all(width: 2.0, color: const Color(0x59ffffff)),
               ),
             ),
           ),
           Transform.translate(
-            offset: Offset(236.0, 346.0),
+            offset: Offset(225.0, 411.0),
             child: Container(
-              width: 125.0,
-              height: 162.0,
+              width: 147.0,
+              height: 189.0,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12.0),
+                borderRadius: BorderRadius.circular(15.0),
                 color: const Color(0xffffffff),
                 border: Border.all(width: 10.0, color: const Color(0xffffffff)),
               ),
             ),
           ),
           Transform.translate(
-            offset: Offset(228.0, 626.0),
+            offset: Offset(230.0, 743.0),
             child: Container(
-              width: 178.0,
-              height: 47.0,
+              width: 169.0,
+              height: 55.0,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(23.0),
-                  bottomLeft: Radius.circular(23.0),
+                  topLeft: Radius.circular(77.0),
+                  bottomLeft: Radius.circular(77.0),
                 ),
                 color: const Color(0xffffffff),
               ),
             ),
           ),
           Transform.translate(
-            offset: Offset(0.0, 626.0),
+            offset: Offset(109.0, 757.0),
             child: Container(
-              width: 179.0,
-              height: 47.0,
+              width: 181.0,
+              height: 41.0,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(77.0),
+                color: const Color(0xffffffff),
+              ),
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(0.0, 743.0),
+            child: Container(
+              width: 170.0,
+              height: 55.0,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(
-                  topRight: Radius.circular(77.0),
-                  bottomRight: Radius.circular(77.0),
+                  topRight: Radius.circular(73.0),
+                  bottomRight: Radius.circular(73.0),
                 ),
                 color: const Color(0xffffffff),
               ),
             ),
           ),
           Transform.translate(
-            offset: Offset(172.0, 592.0),
+            offset: Offset(165.0, 710.0),
             child: Container(
-              width: 63.0,
-              height: 63.0,
+              width: 70.0,
+              height: 70.0,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.elliptical(31.5, 31.5)),
+                borderRadius: BorderRadius.all(Radius.elliptical(35.0, 35.0)),
                 color: const Color(0xff000000),
               ),
             ),
           ),
           Transform.translate(
-            offset: Offset(179.0, 599.0),
+            offset: Offset(171.0, 716.0),
             child: Container(
-              width: 48.0,
-              height: 50.0,
+              width: 56.0,
+              height: 56.0,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.elliptical(24.0, 25.0)),
+                borderRadius: BorderRadius.all(Radius.elliptical(28.0, 28.0)),
                 color: const Color(0xffffffff),
               ),
             ),
           ),
           Transform.translate(
-            offset: Offset(33.91, 608.96),
-            child: SvgPicture.string(
-              _shapeSVG_64fe39b7b8f34fe68103db845da36a0d,
+            offset: Offset(15.99, 727.36),
+            child:
+                // Adobe XD layer: 'assignment_ind-24px' (group)
+                SvgPicture.string(
+              _shapeSVG_e1dae5c6f501442faa2ab051a5c95bec,
               allowDrawingOutsideViewBox: true,
             ),
           ),
           Transform.translate(
-            offset: Offset(56.0, 293.0),
-            child: Text(
-              'Search',
-              style: TextStyle(
-                fontFamily: 'Gilroy ☞',
-                fontSize: 15,
-                color: const Color(0x42ffffff),
-                letterSpacing: 1.125,
-                fontWeight: FontWeight.w300,
-              ),
-              textAlign: TextAlign.left,
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(223.0, 405.0),
+            offset: Offset(225.0, 480.0),
             child: Container(
-              width: 145.0,
-              height: 19.0,
+              width: 147.0,
+              height: 24.0,
               decoration: BoxDecoration(
                 color: const Color(0xff000000),
               ),
             ),
           ),
           Transform.translate(
-            offset: Offset(226.0, 427.0),
+            offset: Offset(225.0, 507.0),
             child: Container(
-              width: 144.0,
-              height: 21.0,
+              width: 147.0,
+              height: 23.0,
               decoration: BoxDecoration(
                 color: const Color(0xff000000),
               ),
             ),
           ),
           Transform.translate(
-            offset: Offset(248.0, 363.0),
+            offset: Offset(239.0, 432.0),
             child: Container(
-              width: 101.0,
-              height: 129.0,
+              width: 118.0,
+              height: 148.0,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12.0),
+                borderRadius: BorderRadius.circular(15.0),
                 color: const Color(0xffffffff),
-                border: Border.all(width: 12.0, color: const Color(0xffffffff)),
+                border: Border.all(width: 10.0, color: const Color(0xffffffff)),
                 boxShadow: [
                   BoxShadow(
                       color: const Color(0x29000000),
@@ -235,16 +256,16 @@ class HomeScreen1 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(265.0, 389.0),
+            offset: Offset(260.0, 462.0),
             child: SizedBox(
-              width: 68.0,
+              width: 74.0,
               child: Text(
                 'Shops\nnear me',
                 style: TextStyle(
                   fontFamily: 'Gilroy ☞',
-                  fontSize: 13,
+                  fontSize: 14,
                   color: const Color(0xff000000),
-                  letterSpacing: 1.3,
+                  letterSpacing: 1.4000000000000001,
                   fontWeight: FontWeight.w600,
                 ),
                 textAlign: TextAlign.center,
@@ -252,23 +273,25 @@ class HomeScreen1 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(272.09, 450.63),
-            child: SvgPicture.string(
-              _shapeSVG_f40396de0a3949319bff64899472bfe1,
+            offset: Offset(281.07, 529.67),
+            child:
+                // Adobe XD layer: 'transfer_within_a_s…' (group)
+                SvgPicture.string(
+              _shapeSVG_49904002fe794501b96070ffdb34b6ef,
               allowDrawingOutsideViewBox: true,
             ),
           ),
           Transform.translate(
-            offset: Offset(73.0, 381.0),
+            offset: Offset(62.0, 452.0),
             child: SizedBox(
-              width: 68.0,
+              width: 74.0,
               child: Text(
                 'Register\nas a\nRetailer',
                 style: TextStyle(
                   fontFamily: 'Gilroy ☞',
-                  fontSize: 13,
+                  fontSize: 14,
                   color: const Color(0xffffffff),
-                  letterSpacing: 1.3,
+                  letterSpacing: 1.4000000000000001,
                   fontWeight: FontWeight.w600,
                 ),
                 textAlign: TextAlign.center,
@@ -276,187 +299,106 @@ class HomeScreen1 extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(91.0, 454.0),
+            offset: Offset(80.0, 527.0),
             child: Container(
-              width: 33.0,
-              height: 32.0,
+              width: 41.0,
+              height: 39.0,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.elliptical(16.5, 16.0)),
+                borderRadius: BorderRadius.all(Radius.elliptical(20.5, 19.5)),
                 color: const Color(0xffffffff),
               ),
             ),
           ),
           Transform.translate(
-            offset: Offset(97.91, 456.29),
-            child: SvgPicture.string(
-              _shapeSVG_e8dbbf99b35246239828ec90880cd63b,
+            offset: Offset(88.29, 534.64),
+            child:
+                // Adobe XD layer: 'add-24px' (group)
+                SvgPicture.string(
+              _shapeSVG_0eacfad6497f4f508d404665e16c6b16,
               allowDrawingOutsideViewBox: true,
             ),
           ),
           Transform.translate(
-            offset: Offset(44.0, 525.0),
+            offset: Offset(27.0, 621.0),
             child: Container(
-              width: 126.0,
-              height: 76.0,
+              width: 147.0,
+              height: 89.0,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12.0),
+                borderRadius: BorderRadius.circular(15.0),
                 border: Border.all(width: 2.0, color: const Color(0xffffffff)),
               ),
             ),
           ),
           Transform.translate(
-            offset: Offset(138.11, 541.47),
-            child: SvgPicture.string(
-              _shapeSVG_9708d847df4a4aaf8d1b32b6ee51b7da,
+            offset: Offset(139.64, 643.85),
+            child:
+                // Adobe XD layer: 'storefront-24px' (group)
+                SvgPicture.string(
+              _shapeSVG_9be1261cd3df4b8c83c020beb286da37,
               allowDrawingOutsideViewBox: true,
             ),
           ),
           Transform.translate(
-            offset: Offset(57.0, 549.0),
+            offset: Offset(139.64, 643.85),
+            child:
+                // Adobe XD layer: 'storefront-24px' (group)
+                Stack(
+              children: <Widget>[
+                Transform.translate(
+                  offset: Offset(0.0, 0.0),
+                  child: Stack(
+                    children: <Widget>[],
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(44.0, 648.0),
             child: Text(
               'Latest\nDiscounts',
               style: TextStyle(
                 fontFamily: 'Gilroy ☞',
-                fontSize: 13,
+                fontSize: 14,
                 color: const Color(0xffffffff),
-                letterSpacing: 1.3,
+                letterSpacing: 1.4000000000000001,
                 fontWeight: FontWeight.w600,
               ),
               textAlign: TextAlign.left,
             ),
           ),
           Transform.translate(
-            offset: Offset(236.0, 525.0),
+            offset: Offset(227.0, 621.0),
             child: Container(
-              width: 126.0,
-              height: 76.0,
+              width: 145.0,
+              height: 89.0,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12.0),
+                borderRadius: BorderRadius.circular(15.0),
                 border: Border.all(width: 2.0, color: const Color(0xffffffff)),
               ),
             ),
           ),
           Transform.translate(
-            offset: Offset(245.0, 549.0),
+            offset: Offset(242.0, 648.0),
             child: Text(
               'Connect\nwith Farmers',
               style: TextStyle(
                 fontFamily: 'Gilroy ☞',
-                fontSize: 13,
+                fontSize: 14,
                 color: const Color(0xffffffff),
-                letterSpacing: 1.3,
+                letterSpacing: 1.4000000000000001,
                 fontWeight: FontWeight.w600,
               ),
               textAlign: TextAlign.left,
             ),
           ),
           Transform.translate(
-            offset: Offset(331.79, 543.83),
-            child: SvgPicture.string(
-              _shapeSVG_0a345b2268b9404e9cb4e628c43c7436,
+            offset: Offset(338.3, 645.44),
+            child:
+                // Adobe XD layer: 'account_tree-24px' (group)
+                SvgPicture.string(
+              _shapeSVG_9536db5103b244bdb0ece352cdba6382,
               allowDrawingOutsideViewBox: true,
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(146.0, 252.0),
-            child: Container(
-              width: 7.0,
-              height: 7.0,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.elliptical(3.5, 3.5)),
-                border: Border.all(width: 1.0, color: const Color(0xffffffff)),
-              ),
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(207.0, 252.0),
-            child: Container(
-              width: 7.0,
-              height: 7.0,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.elliptical(3.5, 3.5)),
-                border: Border.all(width: 1.0, color: const Color(0xffffffff)),
-              ),
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(177.0, 252.0),
-            child: Container(
-              width: 7.0,
-              height: 7.0,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.elliptical(3.5, 3.5)),
-                border: Border.all(width: 1.0, color: const Color(0xffffffff)),
-              ),
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(238.0, 252.0),
-            child: Container(
-              width: 7.0,
-              height: 7.0,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.elliptical(3.5, 3.5)),
-                border: Border.all(width: 1.0, color: const Color(0xffffffff)),
-              ),
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(161.0, 252.0),
-            child: Container(
-              width: 8.0,
-              height: 7.0,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.elliptical(4.0, 3.5)),
-                border: Border.all(width: 1.0, color: const Color(0xffffffff)),
-              ),
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(223.0, 252.0),
-            child: Container(
-              width: 7.0,
-              height: 7.0,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.elliptical(3.5, 3.5)),
-                border: Border.all(width: 1.0, color: const Color(0xffffffff)),
-              ),
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(192.0, 252.0),
-            child: Container(
-              width: 8.0,
-              height: 7.0,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.elliptical(4.0, 3.5)),
-                color: const Color(0xffffffff),
-              ),
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(254.0, 252.0),
-            child: Container(
-              width: 7.0,
-              height: 7.0,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.elliptical(3.5, 3.5)),
-                border: Border.all(width: 1.0, color: const Color(0xffffffff)),
-              ),
-            ),
-          ),
-          Transform.translate(
-            offset: Offset(0.0, 89.0),
-            child: Container(
-              width: 58.0,
-              height: 138.0,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.only(
-                  topRight: Radius.circular(12.0),
-                  bottomRight: Radius.circular(12.0),
-                ),
-                color: const Color(0xff141414),
-              ),
             ),
           ),
         ],
@@ -465,17 +407,17 @@ class HomeScreen1 extends StatelessWidget {
   }
 }
 
-const String _shapeSVG_cf5bc08bc2294399a64a550cc45aae1f =
-    '<svg viewBox="346.6 10.8 39.2 32.0" ><path transform="translate(346.62, 10.8)" d="M 0 0 L 27.01115798950195 0 L 27.01115798950195 27.01115798950195 L 0 27.01115798950195 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(362.3, 18.31)" d="M 7.752789497375488 20.0074405670166 C 6.514778137207031 20.0074405670166 5.513113498687744 21.02036094665527 5.513113498687744 22.25837326049805 C 5.513113498687744 23.49638175964355 6.514778137207031 24.50930023193359 7.752789497375488 24.50930023193359 C 8.990801811218262 24.50930023193359 10.0037202835083 23.49638175964355 10.0037202835083 22.25837326049805 C 10.0037202835083 21.02036094665527 8.990801811218262 20.0074405670166 7.752789497375488 20.0074405670166 Z M 0.9999997615814209 3.125468015670776 C 0.9999997615814209 3.744472980499268 1.50645923614502 4.250932693481445 2.125464916229248 4.250932693481445 L 3.250929594039917 4.250932693481445 L 7.302604198455811 12.79321098327637 L 5.783225536346436 15.53934574127197 C 4.961636066436768 17.04747009277344 6.042081832885742 18.88197898864746 7.752789497375488 18.88197898864746 L 20.13290405273438 18.88197898864746 C 20.75190734863281 18.88197898864746 21.25836944580078 18.37551498413086 21.25836944580078 17.75650978088379 C 21.25836944580078 17.13750839233398 20.75190734863281 16.63104629516602 20.13290405273438 16.63104629516602 L 7.752789497375488 16.63104629516602 L 8.990801811218262 14.38011646270752 L 17.37551498413086 14.38011646270752 C 18.21961212158203 14.38011646270752 18.96242332458496 13.91867733001709 19.34507942199707 13.22088718414307 L 23.37424468994141 5.916621685028076 C 23.7906665802002 5.17381477355957 23.25044441223145 4.250932693481445 22.39509010314941 4.250932693481445 L 5.73820686340332 4.250932693481445 L 4.984144687652588 2.641518592834473 C 4.804070949554443 2.247605800628662 4.398903369903564 2.000003576278687 3.971227645874023 2.000003576278687 L 2.125464916229248 2.000003576278687 C 1.50645923614502 2.000003576278687 0.9999997615814209 2.506462812423706 0.9999997615814209 3.125468015670776 Z M 19.0074405670166 20.0074405670166 C 17.76942825317383 20.0074405670166 16.76776695251465 21.02036094665527 16.76776695251465 22.25837326049805 C 16.76776695251465 23.49638175964355 17.76942825317383 24.50930023193359 19.0074405670166 24.50930023193359 C 20.24545097351074 24.50930023193359 21.25836944580078 23.49638175964355 21.25836944580078 22.25837326049805 C 21.25836944580078 21.02036094665527 20.24545288085938 20.0074405670166 19.0074405670166 20.0074405670166 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _shapeSVG_b6670ce01404426e9c14ee36faadf52f =
-    '<svg viewBox="334.3 290.8 24.9 24.9" ><path transform="translate(334.26, 290.78)" d="M 0 0 L 24.89582443237305 0 L 24.89582443237305 24.89582443237305 L 0 24.89582443237305 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(336.44, 290.89)" d="M 15.96658515930176 14.41060924530029 L 15.14709758758545 14.41060924530029 L 14.85664749145508 14.13053131103516 C 16.10143661499023 12.67827415466309 16.74457931518555 10.69698333740234 16.39188766479492 8.59121036529541 C 15.90434455871582 5.707444190979004 13.49774837493896 3.404580593109131 10.59323596954346 3.051889657974243 C 6.205345630645752 2.512479782104492 2.512465476989746 6.205359935760498 3.051874876022339 10.59324932098389 C 3.404566287994385 13.49776363372803 5.7074294090271 15.90435886383057 8.591196060180664 16.39190292358398 C 10.69696712493896 16.74459457397461 12.67826080322266 16.1014518737793 14.13051700592041 14.85665893554688 L 14.41059589385986 15.14710998535156 L 14.41059589385986 15.96659755706787 L 18.81923294067383 20.37523651123047 C 19.24453544616699 20.80054092407227 19.93954086303711 20.80054092407227 20.36484718322754 20.37523651123047 C 20.79015159606934 19.94993209838867 20.79015159606934 19.25492477416992 20.36484718322754 18.82961845397949 L 15.96658515930176 14.41060924530029 Z M 9.742629051208496 14.41060924530029 C 7.159686088562012 14.41060924530029 5.074660778045654 12.32558536529541 5.074660778045654 9.742642402648926 C 5.074660778045654 7.159700870513916 7.159686088562012 5.074675559997559 9.742629051208496 5.074675559997559 C 12.32556915283203 5.074675559997559 14.41059589385986 7.159700870513916 14.41059589385986 9.742642402648926 C 14.41059589385986 12.32558536529541 12.32556915283203 14.41060924530029 9.742629051208496 14.41060924530029 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _shapeSVG_64fe39b7b8f34fe68103db845da36a0d =
-    '<svg viewBox="33.9 609.0 337.2 50.0" ><path transform="translate(33.91, 637.68)" d="M 0 0 L 21.29648590087891 0 L 21.29648590087891 21.29648590087891 L 0 21.29648590087891 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(33.57, 637.57)" d="M 17.19765663146973 2.774707078933716 L 13.48851871490479 2.774707078933716 C 13.11583232879639 1.745377063751221 12.13974380493164 0.9999999403953552 10.98618412017822 0.9999999403953552 C 9.832623481750488 0.9999999403953552 8.856534004211426 1.745377063751221 8.483845710754395 2.774707078933716 L 4.774708271026611 2.774707078933716 C 3.798618793487549 2.774707078933716 2.999999761581421 3.573325157165527 2.999999761581421 4.549414157867432 L 2.999999761581421 16.97236824035645 C 2.999999761581421 17.94845390319824 3.798618793487549 18.74707221984863 4.774708271026611 18.74707221984863 L 17.19765663146973 18.74707221984863 C 18.17374420166016 18.74707221984863 18.97236251831055 17.94845390319824 18.97236251831055 16.97236824035645 L 18.97236251831055 4.549414157867432 C 18.97236251831055 3.573325157165527 18.17374420166016 2.774707078933716 17.19765663146973 2.774707078933716 Z M 10.98618412017822 2.774707078933716 C 11.47422981262207 2.774707078933716 11.87353801727295 3.174016714096069 11.87353801727295 3.662060260772705 C 11.87353801727295 4.150105953216553 11.47422981262207 4.549414157867432 10.98618412017822 4.549414157867432 C 10.49813938140869 4.549414157867432 10.09882926940918 4.150105953216553 10.09882926940918 3.662060260772705 C 10.09882926940918 3.174016237258911 10.49813938140869 2.774707078933716 10.98618412017822 2.774707078933716 Z M 10.98618412017822 6.324122905731201 C 12.45919036865234 6.324122905731201 13.64824390411377 7.513175964355469 13.64824390411377 8.986185073852539 C 13.64824390411377 10.45919227600098 12.45919036865234 11.64824485778809 10.98618412017822 11.64824485778809 C 9.513175964355469 11.64824485778809 8.324122428894043 10.45919227600098 8.324122428894043 8.986185073852539 C 8.324122428894043 7.513175964355469 9.513175964355469 6.324122905731201 10.98618412017822 6.324122905731201 Z M 16.310302734375 16.97236824035645 L 5.66206169128418 16.97236824035645 L 5.66206169128418 15.73007202148438 C 5.66206169128418 13.95536422729492 9.21147632598877 12.97927665710449 10.98618412017822 12.97927665710449 C 12.76089191436768 12.97927665710449 16.310302734375 13.95536422729492 16.310302734375 15.73007202148438 L 16.310302734375 16.97236824035645 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(349.78, 637.68)" d="M 0 0 L 21.29648590087891 0 L 21.29648590087891 21.29648590087891 L 0 21.29648590087891 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(349.52, 637.46)" d="M 17.4970645904541 11.74314117431641 C 17.53256034851074 11.45919036865234 17.55917930603027 11.17523670196533 17.55917930603027 10.87353610992432 C 17.55917930603027 10.57183742523193 17.53255844116211 10.28788375854492 17.4970645904541 10.00393009185791 L 19.36938095092773 8.539796829223633 C 19.53797912597656 8.406695365905762 19.58234405517578 8.167107582092285 19.47586250305176 7.971891403198242 L 17.70115661621094 4.901647567749023 C 17.59467697143555 4.706429004669189 17.35508728027344 4.635440826416016 17.15987205505371 4.706429004669189 L 14.95035934448242 5.593782901763916 C 14.48893547058105 5.238842010498047 13.99201679229736 4.946014881134033 13.45073318481445 4.72417688369751 L 13.11353874206543 2.372689247131348 C 13.08691692352295 2.159723281860352 12.90057277679443 1.99999988079071 12.67873477935791 1.99999988079071 L 9.129318237304688 1.99999988079071 C 8.907480239868164 1.99999988079071 8.721135139465332 2.159723281860352 8.694516181945801 2.37268853187561 L 8.357321739196777 4.724175930023193 C 7.816036701202393 4.946014881134033 7.319118499755859 5.247714042663574 6.857693672180176 5.593782901763916 L 4.648182392120361 4.706428050994873 C 4.444091320037842 4.626565933227539 4.213379383087158 4.706428050994873 4.106896877288818 4.901646614074707 L 2.332189798355103 7.971889495849609 C 2.216833829879761 8.167106628417969 2.270074844360352 8.406692504882813 2.438672065734863 8.539796829223633 L 4.310988426208496 10.00393009185791 C 4.27549409866333 10.28788185119629 4.248873710632324 10.58070850372314 4.248873710632324 10.87353610992432 C 4.248873710632324 11.1663646697998 4.27549409866333 11.45919036865234 4.310988426208496 11.74314117431641 L 2.438672065734863 13.20727634429932 C 2.270074844360352 13.3403787612915 2.225707292556763 13.57996463775635 2.332189798355103 13.77518177032471 L 4.106897830963135 16.84542655944824 C 4.213379383087158 17.04064559936523 4.452965259552002 17.11163330078125 4.64818286895752 17.04064559936523 L 6.857694149017334 16.15329170227051 C 7.319118499755859 16.50823211669922 7.816036701202393 16.80105972290039 8.357321739196777 17.02289772033691 L 8.694517135620117 19.3743839263916 C 8.721136093139648 19.58735084533691 8.907480239868164 19.74707412719727 9.129319190979004 19.74707412719727 L 12.67873477935791 19.74707412719727 C 12.90057277679443 19.74707412719727 13.08691692352295 19.58735084533691 13.11353874206543 19.3743839263916 L 13.45073318481445 17.02289772033691 C 13.99201679229736 16.80105972290039 14.48893547058105 16.49935722351074 14.95035934448242 16.15329170227051 L 17.15987205505371 17.04064559936523 C 17.36396026611328 17.12050819396973 17.59467697143555 17.04064559936523 17.70115661621094 16.84542655944824 L 19.47586250305176 13.77518177032471 C 19.58234786987305 13.57996463775635 19.53797912597656 13.34037971496582 19.36938095092773 13.20727634429932 L 17.4970645904541 11.74314117431641 Z M 10.90402603149414 13.97927474975586 C 9.191432952880859 13.97927474975586 7.79828929901123 12.5861291885376 7.79828929901123 10.87353610992432 C 7.79828929901123 9.160943031311035 9.191432952880859 7.76779842376709 10.90402603149414 7.76779842376709 C 12.61661815643311 7.76779842376709 14.00976467132568 9.160943031311035 14.00976467132568 10.87353610992432 C 14.00976467132568 12.5861291885376 12.61661815643311 13.97927474975586 10.90402603149414 13.97927474975586 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(189.06, 608.96)" d="M 0 0 L 28.70141792297363 0 L 28.70141792297363 28.70141792297363 L 0 28.70141792297363 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(188.95, 609.94)" d="M 20.54660224914551 14.56713962554932 L 14.56713962554932 14.56713962554932 L 14.56713962554932 20.54660224914551 C 14.56713962554932 21.20434188842773 14.02898693084717 21.74249267578125 13.37124538421631 21.74249267578125 C 12.71350383758545 21.74249267578125 12.17535400390625 21.20434188842773 12.17535400390625 20.54660224914551 L 12.17535400390625 14.56713962554932 L 6.195890426635742 14.56713962554932 C 5.538149356842041 14.56713962554932 4.999998092651367 14.02898693084717 4.999998092651367 13.37124538421631 C 4.999998092651367 12.71350383758545 5.538149356842041 12.17535400390625 6.195890426635742 12.17535400390625 L 12.17535400390625 12.17535400390625 L 12.17535400390625 6.195890426635742 C 12.17535400390625 5.538149356842041 12.71350383758545 4.999998092651367 13.37124538421631 4.999998092651367 C 14.02898693084717 4.999998092651367 14.56713962554932 5.538149356842041 14.56713962554932 6.195890426635742 L 14.56713962554932 12.17535400390625 L 20.54660224914551 12.17535400390625 C 21.20434188842773 12.17535400390625 21.74249267578125 12.71350383758545 21.74249267578125 13.37124538421631 C 21.74249267578125 14.02898693084717 21.20434188842773 14.56713962554932 20.54660224914551 14.56713962554932 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(114.66, 637.68)" d="M 0 0 L 21.29648590087891 0 L 21.29648590087891 21.29648590087891 L 0 21.29648590087891 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(114.39, 637.57)" d="M 17.19765663146973 2.774707555770874 L 13.48852062225342 2.774707555770874 C 13.11583232879639 1.7453773021698 12.13974380493164 0.9999999403953552 10.98618412017822 0.9999999403953552 C 9.832623481750488 0.9999999403953552 8.856534004211426 1.745377063751221 8.483845710754395 2.774707555770874 L 4.774707317352295 2.774707555770874 C 3.798618793487549 2.774707555770874 2.999999761581421 3.573326110839844 2.999999761581421 4.549414157867432 L 2.999999761581421 16.97236824035645 C 2.999999761581421 17.94845390319824 3.798618793487549 18.74707221984863 4.774707317352295 18.74707221984863 L 17.19765663146973 18.74707221984863 C 18.17374610900879 18.74707221984863 18.97236251831055 17.94845390319824 18.97236251831055 16.97236824035645 L 18.97236251831055 4.549414157867432 C 18.97236251831055 3.573326110839844 18.17374610900879 2.774707555770874 17.19765663146973 2.774707555770874 Z M 10.98618412017822 2.774707555770874 C 11.47422981262207 2.774707555770874 11.87353610992432 3.174016237258911 11.87353610992432 3.662060976028442 C 11.87353610992432 4.150105953216553 11.47422981262207 4.549414157867432 10.98618412017822 4.549414157867432 C 10.49813938140869 4.549414157867432 10.09882926940918 4.150105953216553 10.09882926940918 3.662060976028442 C 10.09882926940918 3.174016237258911 10.49813938140869 2.774707555770874 10.98618412017822 2.774707555770874 Z M 8.581454277038574 14.56763744354248 L 6.28320837020874 12.26939105987549 C 5.937140941619873 11.92332363128662 5.937140941619873 11.36429119110107 6.28320837020874 11.01822376251221 C 6.629276275634766 10.67215728759766 7.188309669494629 10.67215728759766 7.534376621246338 11.01822376251221 L 9.211475372314453 12.68644905090332 L 14.42911529541016 7.468807697296143 C 14.77518272399902 7.122739315032959 15.33421516418457 7.122739315032959 15.68028545379639 7.468807697296143 C 16.02635192871094 7.814876556396484 16.02635192871094 8.373909950256348 15.68028545379639 8.719977378845215 L 9.832624435424805 14.56763744354248 C 9.495429039001465 14.91370677947998 8.927521705627441 14.91370677947998 8.581455230712891 14.56763744354248 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(269.47, 637.68)" d="M 0 0 L 21.29648590087891 0 L 21.29648590087891 21.29648590087891 L 0 21.29648590087891 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(269.34, 637.12)" d="M 14.31030654907227 10.32412052154541 C 15.78331279754639 10.32412052154541 16.96349143981934 9.135066986083984 16.96349143981934 7.662057876586914 C 16.96349143981934 6.189052581787109 15.78331279754639 4.999997615814209 14.31030654907227 4.999997615814209 C 12.83729934692383 4.999997615814209 11.64824485778809 6.189052581787109 11.64824485778809 7.662057876586914 C 11.64824485778809 9.135066986083984 12.83729934692383 10.32412052154541 14.31030654907227 10.32412052154541 Z M 7.211473941802979 10.32412052154541 C 8.684482574462891 10.32412052154541 9.864663124084473 9.135066986083984 9.864663124084473 7.662057876586914 C 9.864663124084473 6.189052581787109 8.684482574462891 4.999997615814209 7.211473941802979 4.999997615814209 C 5.738467693328857 4.999997615814209 4.549414157867432 6.189052581787109 4.549414157867432 7.662057876586914 C 4.549414157867432 9.135066986083984 5.738467693328857 10.32412052154541 7.211473941802979 10.32412052154541 Z M 7.211473941802979 12.09882640838623 C 5.143940925598145 12.09882640838623 0.9999997615814209 13.13703155517578 0.9999997615814209 15.20456504821777 L 0.9999997615814209 16.53559494018555 C 0.9999997615814209 17.02363777160645 1.399309158325195 17.42294692993164 1.887353539466858 17.42294692993164 L 12.53559875488281 17.42294692993164 C 13.02364349365234 17.42294692993164 13.42295360565186 17.02363777160645 13.42295360565186 16.53559494018555 L 13.42295360565186 15.20456504821777 C 13.42295360565186 13.13703155517578 9.279010772705078 12.09882640838623 7.211473941802979 12.09882640838623 Z M 14.31030654907227 12.09882640838623 C 14.05297374725342 12.09882640838623 13.76014804840088 12.11657524108887 13.4495735168457 12.14319515228271 C 13.46732139587402 12.15206909179688 13.47619438171387 12.16981506347656 13.48506736755371 12.17868804931641 C 14.49664974212646 12.91519260406494 15.19765853881836 13.90015602111816 15.19765853881836 15.20456504821777 L 15.19765853881836 16.53559494018555 C 15.19765853881836 16.84617042541504 15.13554573059082 17.14786720275879 15.03793621063232 17.42294692993164 L 19.63442802429199 17.42294692993164 C 20.12247276306152 17.42294692993164 20.52178192138672 17.02363777160645 20.52178192138672 16.53559494018555 L 20.52178192138672 15.20456504821777 C 20.52178192138672 13.13703155517578 16.37784004211426 12.09882640838623 14.31030654907227 12.09882640838623 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _shapeSVG_f40396de0a3949319bff64899472bfe1 =
-    '<svg viewBox="272.1 450.6 39.9 31.7" ><path transform="translate(272.09, 450.74)" d="M 0 0 L 31.5672550201416 0 L 31.5672550201416 31.5672550201416 L 0 31.5672550201416 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(283.64, 449.13)" d="M 28.3060474395752 19.91423416137695 L 21.04557991027832 19.91423416137695 L 21.04557991027832 18.90145111083984 C 21.04557991027832 18.42794227600098 20.46684646606445 18.19119071960449 20.13802337646484 18.52001571655273 L 18.15191459655762 20.51927375793457 C 17.94146919250488 20.72972297668457 17.94146919250488 21.05854797363281 18.15191459655762 21.26899719238281 L 20.13802337646484 23.26825714111328 C 20.48000144958496 23.6102352142334 21.04557991027832 23.37348175048828 21.04557991027832 22.88681793212891 L 21.04557991027832 21.8871898651123 L 28.3060474395752 21.8871898651123 L 28.3060474395752 19.91423416137695 Z M 27.9377613067627 26.10931015014648 L 25.95165824890137 24.11005020141602 C 25.60967636108398 23.76806831359863 25.04409217834473 24.00482368469238 25.04409217834473 24.49148941040039 L 25.04409217834473 25.50427055358887 L 17.78363227844238 25.50427055358887 L 17.78363227844238 27.47722625732422 L 25.04409980773926 27.47722625732422 L 25.04409980773926 28.49000930786133 C 25.04409980773926 28.96352005004883 25.62283325195313 29.20027160644531 25.95166015625 28.87144660949707 L 27.93776512145996 26.8721866607666 C 28.1482105255127 26.66173553466797 28.1482105255127 26.31976127624512 27.93776512145996 26.10931015014648 Z M 11.86476707458496 6.761209487915039 C 13.31160163879395 6.761209487915039 14.49537372589111 5.577437877655029 14.49537372589111 4.130605697631836 C 14.49537372589111 2.683772325515747 13.31160163879395 1.500000238418579 11.86476707458496 1.500000238418579 C 10.41793441772461 1.500000238418579 9.234164237976074 2.683772325515747 9.234164237976074 4.130605697631836 C 9.234164237976074 5.577437877655029 10.41793441772461 6.761209487915039 11.86476707458496 6.761209487915039 Z M 6.932384490966797 11.23323631286621 L 3.617822170257568 28.21379280090332 C 3.459986448287964 29.02928352355957 4.078177928924561 29.77900314331055 4.906818389892578 29.77900314331055 L 5.025196552276611 29.77900314331055 C 5.643388748168945 29.77900314331055 6.182662010192871 29.3449535369873 6.314193248748779 28.73991394042969 L 8.379216194152832 19.25658226013184 L 11.20711612701416 21.8871898651123 L 11.20711612701416 28.46370124816895 C 11.20711612701416 29.18711853027344 11.79900169372559 29.77900314331055 12.52241897583008 29.77900314331055 C 13.24583530426025 29.77900314331055 13.83772087097168 29.18711853027344 13.83772087097168 28.46370124816895 L 13.83772087097168 20.94017219543457 C 13.83772087097168 20.24306106567383 13.56150817871094 19.57225608825684 13.061692237854 19.08559608459473 L 11.14135074615479 17.15209770202637 L 11.93053245544434 13.20619010925293 C 13.33790588378906 14.94238662719727 15.32401275634766 16.13931274414063 17.59948921203613 16.50760078430176 C 18.388671875 16.63913154602051 19.09893608093262 15.99462985992432 19.09893608093262 15.19229602813721 C 19.09893608093262 14.54779720306396 18.62542724609375 14.00852394104004 17.99408340454102 13.90330123901367 C 16.03427886962891 13.57447528839111 14.37699699401855 12.39070320129395 13.377366065979 10.77288055419922 L 12.12782955169678 8.668396949768066 C 11.66747379302979 7.879215717315674 10.81252574920654 7.418861389160156 9.891815185546875 7.418861389160156 C 9.56298828125 7.418861389160156 9.234164237976074 7.484625816345215 8.905337333679199 7.616155624389648 L 3.630975723266602 9.773251533508301 C 2.644498825073242 10.18099498748779 2.000000476837158 11.14116477966309 2.000000476837158 12.20656204223633 L 2.000000476837158 15.3106746673584 C 2.000000476837158 16.03409194946289 2.591886758804321 16.6259765625 3.315302848815918 16.6259765625 C 4.038719177246094 16.6259765625 4.630605697631836 16.03409194946289 4.630605697631836 15.3106746673584 L 4.630605697631836 12.21971416473389 L 6.932384490966797 11.23323631286621" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _shapeSVG_e8dbbf99b35246239828ec90880cd63b =
-    '<svg viewBox="97.9 456.3 20.2 20.2" ><path transform="translate(97.91, 456.29)" d="M 0 0 L 20.21894454956055 0 L 20.21894454956055 20.21894454956055 L 0 20.21894454956055 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(96.25, 459.54)" d="M 15.95192909240723 11.73964595794678 L 11.73964595794678 11.73964595794678 L 11.73964595794678 15.95192909240723 C 11.73964595794678 16.4152774810791 11.36054229736328 16.79438400268555 10.89718914031982 16.79438400268555 C 10.43383979797363 16.79438400268555 10.05473613739014 16.4152774810791 10.05473613739014 15.95192909240723 L 10.05473613739014 11.73964595794678 L 5.842453956604004 11.73964595794678 C 5.37910270690918 11.73964595794678 4.999998092651367 11.36054229736328 4.999998092651367 10.89718914031982 C 4.999998092651367 10.43383979797363 5.37910270690918 10.05473613739014 5.842453956604004 10.05473613739014 L 10.05473613739014 10.05473613739014 L 10.05473613739014 5.842453956604004 C 10.05473613739014 5.37910270690918 10.43383979797363 4.999998092651367 10.89718914031982 4.999998092651367 C 11.36054229736328 4.999998092651367 11.73964595794678 5.37910270690918 11.73964595794678 5.842453956604004 L 11.73964595794678 10.05473613739014 L 15.95192909240723 10.05473613739014 C 16.4152774810791 10.05473613739014 16.79438400268555 10.43383979797363 16.79438400268555 10.89718914031982 C 16.79438400268555 11.36054229736328 16.4152774810791 11.73964595794678 15.95192909240723 11.73964595794678 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _shapeSVG_9708d847df4a4aaf8d1b32b6ee51b7da =
-    '<svg viewBox="138.1 541.5 16.9 15.2" ><path transform="translate(136.11, 538.47)" d="M 18.81183624267578 7.975718975067139 L 17.92482376098633 4.2840576171875 C 17.73897171020508 3.523760557174683 17.08004760742188 3.000000953674316 16.31130599975586 3.000000953674316 L 14.4443531036377 3.000000953674316 L 12.74635696411133 3.000000953674316 L 11.29334735870361 3.000000953674316 L 9.603797912597656 3.000000953674316 L 8.150786399841309 3.000000953674316 L 6.444344043731689 3.000000953674316 L 4.577392578125 3.000000953674316 C 3.817096471786499 3.000000953674316 3.149725198745728 3.532208442687988 2.972322940826416 4.2840576171875 L 2.085309982299805 7.975718975067139 C 1.882564067840576 8.83738899230957 2.068414688110352 9.715956687927246 2.609069585800171 10.40867137908936 C 2.6766517162323 10.50159454345703 2.769577026367188 10.56917667388916 2.845606565475464 10.65365409851074 L 2.845606565475464 16.51638221740723 C 2.845606565475464 17.44563484191895 3.605903387069702 18.2059326171875 4.535154342651367 18.2059326171875 L 16.36199188232422 18.2059326171875 C 17.29124450683594 18.2059326171875 18.05153846740723 17.44563484191895 18.05153846740723 16.51638221740723 L 18.05153846740723 10.65365219116211 C 18.1275691986084 10.57762336730957 18.22049522399902 10.50159454345703 18.28807640075684 10.41711711883545 C 18.8287296295166 9.724401473999023 19.02303123474121 8.83738899230957 18.81183624267578 7.975718975067139 Z M 6.241597652435303 4.689548492431641 L 5.751628398895264 8.795149803161621 C 5.684047222137451 9.344255447387695 5.244764804840088 9.758193969726563 4.729452133178711 9.758193969726563 C 4.315513134002686 9.758193969726563 4.053632736206055 9.513210296630859 3.943812608718872 9.361149787902832 C 3.72417140007019 9.082374572753906 3.648142099380493 8.719121932983398 3.732619524002075 8.372762680053711 L 4.577392578125 4.689548492431641 L 6.241597652435303 4.689548492431641 Z M 16.28596115112305 4.681099891662598 L 17.17297172546387 8.372762680053711 C 17.25745010375977 8.727567672729492 17.18142127990723 9.082374572753906 16.9617805480957 9.361149787902832 C 16.8435115814209 9.513210296630859 16.59008026123047 9.758193969726563 16.16769409179688 9.758193969726563 C 15.65238094329834 9.758193969726563 15.20465183258057 9.344255447387695 15.14551830291748 8.795149803161621 L 14.65554523468018 4.689548492431641 L 16.28596115112305 4.681099891662598 Z M 13.41373062133789 8.507928848266602 C 13.45596790313721 8.837390899658203 13.35459613800049 9.166851043701172 13.13495540618896 9.411834716796875 C 12.94065570831299 9.631476402282715 12.67032814025879 9.758193969726563 12.32397270202637 9.758193969726563 C 11.75797271728516 9.758193969726563 11.29334735870361 9.259775161743164 11.29334735870361 8.651537895202637 L 11.29334735870361 4.689548492431641 L 12.94910335540771 4.689548492431641 L 13.41373062133789 8.507928848266602 Z M 9.603797912597656 8.651537895202637 C 9.603797912597656 9.259775161743164 9.139172554016113 9.758193969726563 8.514040946960449 9.758193969726563 C 8.22681713104248 9.758193969726563 7.964936256408691 9.631476402282715 7.762189388275146 9.411834716796875 C 7.55099630355835 9.166851043701172 7.449624538421631 8.83738899230957 7.483415126800537 8.507928848266602 L 7.948040962219238 4.689548492431641 L 9.603797912597656 4.689548492431641 L 9.603797912597656 8.651537895202637 Z M 15.5172176361084 16.51638221740723 L 5.379928588867188 16.51638221740723 C 4.915301322937012 16.51638221740723 4.535154342651367 16.1362361907959 4.535154342651367 15.67161178588867 L 4.535154342651367 11.42239761352539 C 4.60273551940918 11.43084526062012 4.66187047958374 11.44774055480957 4.729452133178711 11.44774055480957 C 5.46440601348877 11.44774055480957 6.131776809692383 11.14362239837646 6.62174654006958 10.64520645141602 C 7.128612041473389 11.15207004547119 7.804428577423096 11.44774055480957 8.573174476623535 11.44774055480957 C 9.308128356933594 11.44774055480957 9.967050552368164 11.14362239837646 10.45702075958252 10.66210079193115 C 10.95543766021729 11.14362239837646 11.63125705718994 11.44774055480957 12.39155387878418 11.44774055480957 C 13.10116195678711 11.44774055480957 13.7769832611084 11.15207004547119 14.28384780883789 10.64520645141602 C 14.7738151550293 11.14362239837646 15.44118785858154 11.44774055480957 16.1761417388916 11.44774055480957 C 16.24372482299805 11.44774055480957 16.30285835266113 11.43084526062012 16.37043952941895 11.42239952087402 L 16.37043952941895 15.67161178588867 C 16.36199188232422 16.1362361907959 15.98184108734131 16.51638221740723 15.5172176361084 16.51638221740723 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _shapeSVG_0a345b2268b9404e9cb4e628c43c7436 =
-    '<svg viewBox="331.8 543.8 14.1 12.7" ><path transform="translate(329.79, 540.83)" d="M 12.55031204223633 8.626833915710449 L 14.66037273406982 8.626833915710449 C 15.4410982131958 8.626833915710449 16.06708335876465 7.993813514709473 16.06708335876465 7.220125198364258 L 16.06708335876465 4.40670919418335 C 16.06708335876465 3.625985383987427 15.43406200408936 2.999999761581421 14.66037273406982 2.999999761581421 L 12.55031204223633 2.999999761581421 C 11.76958656311035 2.999999761581421 11.14360332489014 3.633018732070923 11.14360332489014 4.40670919418335 L 11.14360332489014 5.110063076019287 L 6.930512428283691 5.110063076019287 L 6.930512428283691 4.40670919418335 C 6.930512428283691 3.625985383987427 6.297494411468506 2.999999761581421 5.5238037109375 2.999999761581421 L 3.406708478927612 2.999999761581421 C 2.633018732070923 2.999999761581421 1.99999988079071 3.633018732070923 1.99999988079071 4.40670919418335 L 1.99999988079071 7.220125198364258 C 1.99999988079071 8.000847816467285 2.633018732070923 8.626833915710449 3.406708478927612 8.626833915710449 L 5.516770839691162 8.626833915710449 C 6.297493457794189 8.626833915710449 6.923478603363037 7.993813514709473 6.923478603363037 7.220125198364258 L 6.923478603363037 6.51677131652832 L 8.33018684387207 6.51677131652832 L 8.33018684387207 11.4472827911377 C 8.33018684387207 12.60781764984131 9.27268123626709 13.55031108856201 10.43321514129639 13.55031108856201 L 11.14360332489014 13.55031108856201 L 11.14360332489014 14.25366497039795 C 11.14360332489014 15.03439044952393 11.77662086486816 15.66037273406982 12.55031204223633 15.66037273406982 L 14.66037273406982 15.66037273406982 C 15.4410982131958 15.66037273406982 16.06708335876465 15.0273551940918 16.06708335876465 14.25366497039795 L 16.06708335876465 11.4402494430542 C 16.06708335876465 10.65952682495117 15.43406200408936 10.03354167938232 14.66037273406982 10.03354167938232 L 12.55031204223633 10.03354167938232 C 11.76958656311035 10.03354167938232 11.14360332489014 10.66656017303467 11.14360332489014 11.4402494430542 L 11.14360332489014 12.14360332489014 L 10.43321514129639 12.14360332489014 C 10.05340385437012 12.14360332489014 9.736894607543945 11.8270959854126 9.736894607543945 11.4472827911377 L 9.736894607543945 6.51677131652832 L 11.14360332489014 6.51677131652832 L 11.14360332489014 7.220125198364258 C 11.14360332489014 7.993813514709473 11.77662086486816 8.626833915710449 12.55031204223633 8.626833915710449 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _shapeSVG_e6ead0791bb342afa401e1bf70b8070a =
+    '<svg viewBox="345.8 17.5 31.4 31.4" ><g transform="translate(345.82, 17.52)"><path  d="M 0 0 L 31.36999893188477 0 L 31.36999893188477 31.36999893188477 L 0 31.36999893188477 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(0.31, 0.61)" d="M 8.842500686645508 22.91333961486816 C 7.404710292816162 22.91333961486816 6.24140453338623 24.0897159576416 6.24140453338623 25.52750778198242 C 6.24140453338623 26.96530151367188 7.404710292816162 28.14167213439941 8.842500686645508 28.14167213439941 C 10.28029346466064 28.14167213439941 11.45666790008545 26.96530151367188 11.45666790008545 25.52750778198242 C 11.45666790008545 24.0897159576416 10.28029346466064 22.91333961486816 8.842500686645508 22.91333961486816 Z M 1 3.30708646774292 C 1 4.025981903076172 1.588187456130981 4.614170074462891 2.307083129882813 4.614170074462891 L 3.614166498184204 4.614170074462891 L 8.319666862487793 14.53493309020996 L 6.555105209350586 17.72421836853027 C 5.60093355178833 19.4757080078125 6.855733394622803 21.60625457763672 8.842500686645508 21.60625457763672 L 23.22041893005371 21.60625457763672 C 23.93930816650391 21.60625457763672 24.52750396728516 21.01806449890137 24.52750396728516 20.29916954040527 C 24.52750396728516 19.58027458190918 23.93930816650391 18.99208831787109 23.22041893005371 18.99208831787109 L 8.842500686645508 18.99208831787109 L 10.28029346466064 16.37792015075684 L 20.01806449890137 16.37792015075684 C 20.99837493896484 16.37792015075684 21.86105537414551 15.84201526641846 22.30545997619629 15.03162670135498 L 26.98481559753418 6.548653602600098 C 27.46844100952148 5.685978412628174 26.84103965759277 4.614170074462891 25.84765243530273 4.614170074462891 L 6.502821445465088 4.614170074462891 L 5.627074241638184 2.745041608810425 C 5.417942523956299 2.287561893463135 4.947391033172607 2.000003814697266 4.450700283050537 2.000003814697266 L 2.307083129882813 2.000003814697266 C 1.588187456130981 2.000003814697266 1 2.588191509246826 1 3.307087421417236 Z M 21.9133358001709 22.91333961486816 C 20.47554397583008 22.91333961486816 19.3122386932373 24.0897159576416 19.3122386932373 25.52750778198242 C 19.3122386932373 26.96530151367188 20.47554397583008 28.14167213439941 21.9133358001709 28.14167213439941 C 23.35112380981445 28.14167213439941 24.52750396728516 26.96530151367188 24.52750396728516 25.52750778198242 C 24.52750396728516 24.0897159576416 23.35112571716309 22.91333961486816 21.9133358001709 22.91333961486816 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></g></svg>';
+const String _shapeSVG_8698c415c32543a093799b4da145de6b =
+    '<svg viewBox="340.5 337.2 28.9 28.9" ><g transform="translate(340.46, 337.22)"><path  d="M 0 0 L 28.91331672668457 0 L 28.91331672668457 28.91331672668457 L 0 28.91331672668457 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(0.61, 0.61)" d="M 18.05913162231445 16.25206756591797 L 17.10740089416504 16.25206756591797 L 16.77008056640625 15.92678833007813 C 18.21574592590332 14.24017810821533 18.96267318725586 11.9391622543335 18.55306816101074 9.49357795715332 C 17.98685073852539 6.144451141357422 15.19189643859863 3.469970464706421 11.81867408752441 3.060365200042725 C 6.722704410552979 2.433908939361572 2.433895826339722 6.722716331481934 3.060351133346558 11.81869029998779 C 3.469956398010254 15.1919116973877 6.144439220428467 17.98686408996582 9.493561744689941 18.55307960510254 C 11.93914604187012 18.96268653869629 14.24016284942627 18.21576309204102 15.92677307128906 16.77009391784668 L 16.25205039978027 17.10741424560547 L 16.25205039978027 18.05914878845215 L 21.37211418151855 23.17921257019043 C 21.86605072021484 23.67315101623535 22.67321395874023 23.67315101623535 23.16715431213379 23.17921257019043 C 23.66109085083008 22.68527603149414 23.66109085083008 21.87811279296875 23.16715431213379 21.38417816162109 L 18.05913162231445 16.25206756591797 Z M 10.83080291748047 16.25206756591797 C 7.831048011779785 16.25206756591797 5.40955924987793 13.83057403564453 5.40955924987793 10.83081817626953 C 5.40955924987793 7.831061840057373 7.831048011779785 5.409572601318359 10.83080291748047 5.409572601318359 C 13.8305606842041 5.409572601318359 16.25205039978027 7.831061840057373 16.25205039978027 10.83081817626953 C 16.25205039978027 13.83057403564453 13.8305606842041 16.25206756591797 10.83080291748047 16.25206756591797 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></g></svg>';
+const String _shapeSVG_e1dae5c6f501442faa2ab051a5c95bec =
+    '<svg viewBox="16.0 727.4 366.0 54.8" ><g transform="translate(15.99, 757.41)"><path  d="M 0 0 L 24.73314476013184 0 L 24.73314476013184 24.73314476013184 L 0 24.73314476013184 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(0.09, 0.03)" d="M 19.4887638092041 3.061095476150513 L 15.18107223510742 3.061095476150513 C 14.7482442855835 1.865660190582275 13.6146411895752 1 12.27492904663086 1 C 10.93521785736084 1 9.801616668701172 1.865660190582275 9.368785858154297 3.061095476150513 L 5.06109619140625 3.061095476150513 C 3.927493810653687 3.061095476150513 3.000000953674316 3.988588333129883 3.000000953674316 5.122190475463867 L 3.000000953674316 19.54985809326172 C 3.000000953674316 20.6834602355957 3.927493810653687 21.61095237731934 5.06109619140625 21.61095237731934 L 19.4887638092041 21.61095237731934 C 20.62236595153809 21.61095237731934 21.54985809326172 20.6834602355957 21.54985809326172 19.54985809326172 L 21.54985809326172 5.122190475463867 C 21.54985809326172 3.988588333129883 20.62236595153809 3.061095476150513 19.4887638092041 3.061095476150513 Z M 12.27492904663086 3.061095476150513 C 12.84173107147217 3.061095476150513 13.30547618865967 3.524842023849487 13.30547618865967 4.091643333435059 C 13.30547618865967 4.658443927764893 12.84173107147217 5.122190475463867 12.27492904663086 5.122190475463867 C 11.70812797546387 5.122190475463867 11.24438095092773 4.658443927764893 11.24438095092773 4.091643333435059 C 11.24438095092773 3.524841070175171 11.70812797546387 3.061095476150513 12.27492904663086 3.061095476150513 Z M 12.27492904663086 7.183287620544434 C 13.98563957214355 7.183287620544434 15.36657047271729 8.564220428466797 15.36657047271729 10.27493000030518 C 15.36657047271729 11.98563957214355 13.98563957214355 13.36657238006592 12.27492904663086 13.36657238006592 C 10.56422138214111 13.36657238006592 9.183285713195801 11.98563957214355 9.183285713195801 10.27493000030518 C 9.183285713195801 8.564220428466797 10.56422138214111 7.183287620544434 12.27492904663086 7.183287620544434 Z M 18.45821571350098 19.54985809326172 L 6.091643333435059 19.54985809326172 L 6.091643333435059 18.10709190368652 C 6.091643333435059 16.04599571228027 10.21383476257324 14.91239166259766 12.27492904663086 14.91239166259766 C 14.33602619171143 14.91239166259766 18.45821571350098 16.04599571228027 18.45821571350098 18.10709190368652 L 18.45821571350098 19.54985809326172 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></g><g transform="translate(357.28, 757.41)"><path  d="M 0 0 L 24.73314476013184 0 L 24.73314476013184 24.73314476013184 L 0 24.73314476013184 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(0.07, 0.06)" d="M 19.95417785644531 13.3154125213623 C 19.99540328979492 12.98563957214355 20.02631759643555 12.65586280822754 20.02631759643555 12.30547714233398 C 20.02631759643555 11.95509243011475 19.99539947509766 11.62531661987305 19.95417785644531 11.29553985595703 L 22.12863540649414 9.595138549804688 C 22.32444000244141 9.440555572509766 22.37596893310547 9.162306785583496 22.2523021697998 8.935586929321289 L 20.19120597839355 5.369890689849854 C 20.06753921508789 5.143170833587646 19.78929328918457 5.060726165771484 19.56257438659668 5.143170833587646 L 16.99650764465332 6.173718929290771 C 16.46062088012695 5.761498928070068 15.88351726531982 5.421418190002441 15.25488376617432 5.163781642913818 L 14.8632755279541 2.432830810546875 C 14.83235836029053 2.185498952865601 14.61594200134277 2 14.35830688476563 2 L 10.23611354827881 2 C 9.978475570678711 2 9.762062072753906 2.185498952865601 9.731145858764648 2.432830095291138 L 9.339536666870117 5.163781642913818 C 8.710904121398926 5.421418190002441 8.133796691894531 5.771804809570313 7.597911834716797 6.173718929290771 L 5.031846523284912 5.143170833587646 C 4.794820785522461 5.050421237945557 4.52687931060791 5.143170833587646 4.403212547302246 5.369890689849854 L 2.34211802482605 8.935586929321289 C 2.208146810531616 9.162304878234863 2.269979238510132 9.440552711486816 2.465782880783081 9.595136642456055 L 4.640239238739014 11.29553985595703 C 4.599016666412354 11.62531471252441 4.568100929260254 11.96539402008057 4.568100929260254 12.30547714233398 C 4.568100929260254 12.6455602645874 4.599016666412354 12.98563957214355 4.640239238739014 13.3154125213623 L 2.46578311920166 15.01581764221191 C 2.269979238510132 15.17039966583252 2.218452453613281 15.44864749908447 2.34211802482605 15.67536735534668 L 4.403213500976563 19.24106216430664 C 4.52687931060791 19.4677791595459 4.805126667022705 19.55022430419922 5.031847476959229 19.4677791595459 L 7.597912788391113 18.43723487854004 C 8.133796691894531 18.84945487976074 8.710904121398926 19.18953323364258 9.339537620544434 19.44717025756836 L 9.731146812438965 22.17812156677246 C 9.762063026428223 22.42545318603516 9.978476524353027 22.61095237731934 10.23611450195313 22.61095237731934 L 14.35830688476563 22.61095237731934 C 14.61594200134277 22.61095237731934 14.83235836029053 22.42545318603516 14.8632755279541 22.17812156677246 L 15.25488376617432 19.44717025756836 C 15.88351726531982 19.18953323364258 16.46062088012695 18.83914756774902 16.99650764465332 18.43723487854004 L 19.56257438659668 19.4677791595459 C 19.79959678649902 19.5605297088623 20.06753921508789 19.4677791595459 20.19120597839355 19.24106216430664 L 22.2523021697998 15.67536735534668 C 22.3759708404541 15.44864749908447 22.32444000244141 15.17040348052979 22.12863540649414 15.01581764221191 L 19.95417785644531 13.3154125213623 Z M 12.29720878601074 15.91239643096924 C 10.30825233459473 15.91239643096924 8.690292358398438 14.29443454742432 8.690292358398438 12.30547714233398 C 8.690292358398438 10.31651878356934 10.30825233459473 8.698558807373047 12.29720878601074 8.698558807373047 C 14.28616523742676 8.698558807373047 15.90412712097168 10.31651878356934 15.90412712097168 12.30547714233398 C 15.90412712097168 14.29443454742432 14.28616523742676 15.91239643096924 12.29720878601074 15.91239643096924 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></g><g transform="translate(182.96, 727.36)"><path  d="M 0 0 L 33.14311599731445 0 L 33.14311599731445 33.14311599731445 L 0 33.14311599731445 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(1.9, 1.9)" d="M 22.95251846313477 16.04770088195801 L 16.04770088195801 16.04770088195801 L 16.04770088195801 22.95251846313477 C 16.04770088195801 23.7120475769043 15.42626953125 24.3334789276123 14.6667366027832 24.3334789276123 C 13.90721035003662 24.3334789276123 13.28577709197998 23.7120475769043 13.28577709197998 22.95251846313477 L 13.28577709197998 16.04770088195801 L 6.38096284866333 16.04770088195801 C 5.621433258056641 16.04770088195801 4.999999523162842 15.42626953125 4.999999523162842 14.6667366027832 C 4.999999523162842 13.90721035003662 5.621433258056641 13.28577709197998 6.38096284866333 13.28577709197998 L 13.28577709197998 13.28577709197998 L 13.28577709197998 6.38096284866333 C 13.28577709197998 5.621433258056641 13.90721035003662 4.999999523162842 14.6667366027832 4.999999523162842 C 15.42626953125 4.999999523162842 16.04770088195801 5.621433258056641 16.04770088195801 6.38096284866333 L 16.04770088195801 13.28577709197998 L 22.95251846313477 13.28577709197998 C 23.7120475769043 13.28577709197998 24.3334789276123 13.90721035003662 24.3334789276123 14.6667366027832 C 24.3334789276123 15.42626953125 23.7120475769043 16.04770088195801 22.95251846313477 16.04770088195801 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></g><g transform="translate(102.16, 757.41)"><path  d="M 0 0 L 24.73314476013184 0 L 24.73314476013184 24.73314476013184 L 0 24.73314476013184 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(0.09, 0.03)" d="M 19.48876571655273 3.061095714569092 L 15.18107414245605 3.061095714569092 C 14.7482442855835 1.865660190582275 13.61464214324951 1 12.27492904663086 1 C 10.93521785736084 1 9.801616668701172 1.865660190582275 9.368785858154297 3.061095714569092 L 5.06109619140625 3.061095714569092 C 3.927493333816528 3.061095714569092 3.000000953674316 3.988588333129883 3.000000953674316 5.122190475463867 L 3.000000953674316 19.54985809326172 C 3.000000953674316 20.6834602355957 3.927493333816528 21.61095428466797 5.06109619140625 21.61095428466797 L 19.48876571655273 21.61095428466797 C 20.62236595153809 21.61095428466797 21.54986000061035 20.6834602355957 21.54986000061035 19.54985809326172 L 21.54986000061035 5.122190475463867 C 21.54986000061035 3.988588333129883 20.62236595153809 3.061095714569092 19.48876571655273 3.061095714569092 Z M 12.27492904663086 3.061095714569092 C 12.84173107147217 3.061095714569092 13.30547618865967 3.524841547012329 13.30547618865967 4.091643333435059 C 13.30547618865967 4.658443927764893 12.84173107147217 5.122190475463867 12.27492904663086 5.122190475463867 C 11.70812797546387 5.122190475463867 11.24438095092773 4.658443927764893 11.24438095092773 4.091643333435059 C 11.24438095092773 3.524841070175171 11.70812797546387 3.061095714569092 12.27492904663086 3.061095714569092 Z M 9.482144355773926 16.75707626342773 L 6.813026428222656 14.08795356750488 C 6.411113262176514 13.68604183197021 6.411113262176514 13.03679752349854 6.813026428222656 12.63488388061523 C 7.214941024780273 12.23297214508057 7.864185810089111 12.23297214508057 8.266098022460938 12.63488388061523 L 10.21383380889893 14.57231426239014 L 16.2734546661377 8.512692451477051 C 16.67536735534668 8.110779762268066 17.32461357116699 8.110779762268066 17.72652816772461 8.512692451477051 C 18.12844085693359 8.914606094360352 18.12844085693359 9.563849449157715 17.72652816772461 9.965764045715332 L 10.93521976470947 16.75707626342773 C 10.54360961914063 17.15899085998535 9.884058952331543 17.15899085998535 9.482146263122559 16.75707626342773 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></g><g transform="translate(271.67, 757.41)"><path  d="M 0 0 L 24.73314476013184 0 L 24.73314476013184 24.73314476013184 L 0 24.73314476013184 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(0.03, 0.15)" d="M 16.45821571350098 11.1832857131958 C 18.16892623901367 11.1832857131958 19.53955268859863 9.802351951599121 19.53955268859863 8.091642379760742 C 19.53955268859863 6.380933284759521 18.16892623901367 4.999999523162842 16.45821571350098 4.999999523162842 C 14.7475061416626 4.999999523162842 13.36657238006592 6.380933284759521 13.36657238006592 8.091642379760742 C 13.36657238006592 9.802351951599121 14.7475061416626 11.1832857131958 16.45821571350098 11.1832857131958 Z M 8.213832855224609 11.1832857131958 C 9.924541473388672 11.1832857131958 11.29516983032227 9.802351951599121 11.29516983032227 8.091642379760742 C 11.29516983032227 6.380933284759521 9.924541473388672 4.999999523162842 8.213832855224609 4.999999523162842 C 6.503125667572021 4.999999523162842 5.122190952301025 6.380933284759521 5.122190952301025 8.091642379760742 C 5.122190952301025 9.802351951599121 6.503125667572021 11.1832857131958 8.213832855224609 11.1832857131958 Z M 8.213832855224609 13.24437999725342 C 5.812657356262207 13.24437999725342 1 14.450119972229 1 16.85129547119141 L 1 18.39711761474609 C 1 18.96391677856445 1.463746547698975 19.42766380310059 2.030547618865967 19.42766380310059 L 14.39712047576904 19.42766380310059 C 14.96392154693604 19.42766380310059 15.42766761779785 18.96391677856445 15.42766761779785 18.39711761474609 L 15.42766761779785 16.85129547119141 C 15.42766761779785 14.450119972229 10.61500930786133 13.24437999725342 8.213832855224609 13.24437999725342 Z M 16.45821571350098 13.24437999725342 C 16.15935707092285 13.24437999725342 15.8192777633667 13.26499176025391 15.45858383178711 13.29590702056885 C 15.47919750213623 13.30621337890625 15.48950290679932 13.32682323455811 15.49980354309082 13.33712863922119 C 16.67462730407715 14.19248294830322 17.48876190185547 15.33639144897461 17.48876190185547 16.85129547119141 L 17.48876190185547 18.39711761474609 C 17.48876190185547 18.75781059265137 17.4166259765625 19.10819625854492 17.30326652526855 19.42766380310059 L 22.64150238037109 19.42766380310059 C 23.20829963684082 19.42766380310059 23.67204856872559 18.96391677856445 23.67204856872559 18.39711761474609 L 23.67204856872559 16.85129547119141 C 23.67204856872559 14.450119972229 18.8593921661377 13.24437999725342 16.45821571350098 13.24437999725342 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></g></svg>';
+const String _shapeSVG_49904002fe794501b96070ffdb34b6ef =
+    '<svg viewBox="281.1 529.7 36.7 36.7" ><g transform="translate(281.07, 529.67)"><path  d="M 0 0 L 36.66132736206055 0 L 36.66132736206055 36.66132736206055 L 0 36.66132736206055 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(1.06, 0.79)" d="M 32.55110168457031 22.88577270507813 L 24.1190013885498 22.88577270507813 L 24.1190013885498 21.70955276489258 C 24.1190013885498 21.15963554382324 23.44687652587891 20.88467597961426 23.06499099731445 21.26656532287598 L 20.75838279724121 23.58844947814941 C 20.51396942138672 23.83285713195801 20.51396942138672 24.21475028991699 20.75838279724121 24.45915603637695 L 23.06499099731445 26.78104400634766 C 23.46215438842773 27.17820930480957 24.1190013885498 26.90324592590332 24.1190013885498 26.33805274963379 L 24.1190013885498 25.17711067199707 L 32.55110168457031 25.17711067199707 L 32.55110168457031 22.88577270507813 Z M 32.12338638305664 30.08056259155273 L 29.8167781829834 27.75867462158203 C 29.41961479187012 27.36151504516602 28.76275825500488 27.636474609375 28.76275825500488 28.20166969299316 L 28.76275825500488 29.37788581848145 L 20.33066368103027 29.37788581848145 L 20.33066368103027 31.66921806335449 L 28.76276588439941 31.66921806335449 L 28.76276588439941 32.84543609619141 C 28.76276588439941 33.39535903930664 29.43489456176758 33.67031860351563 29.81678009033203 33.28842926025391 L 32.12339019775391 30.96654319763184 C 32.36780166625977 30.72213745117188 32.36780166625977 30.32497787475586 32.12339019775391 30.08056640625 Z M 13.45666790008545 7.610221385955811 C 15.13697814941406 7.610221385955811 16.51177597045898 6.235421657562256 16.51177597045898 4.555111408233643 C 16.51177597045898 2.874800205230713 15.13697814941406 1.500000357627869 13.45666790008545 1.500000357627869 C 11.77635192871094 1.500000357627869 10.40155506134033 2.874800205230713 10.40155506134033 4.555111408233643 C 10.40155506134033 6.235421657562256 11.77635192871094 7.610221385955811 13.45666790008545 7.610221385955811 Z M 7.728333950042725 12.80390739440918 L 3.878893375396729 32.52465438842773 C 3.695586919784546 33.47173309326172 4.413537502288818 34.34244155883789 5.375898361206055 34.34244155883789 L 5.513379096984863 34.34244155883789 C 6.231330394744873 34.34244155883789 6.857627868652344 33.83834838867188 7.010383605957031 33.13567352294922 L 9.408641815185547 22.12199401855469 L 12.69288635253906 25.17711067199707 L 12.69288635253906 32.81488800048828 C 12.69288635253906 33.6550407409668 13.38029003143311 34.34244155883789 14.22044372558594 34.34244155883789 C 15.06060028076172 34.34244155883789 15.74799823760986 33.6550407409668 15.74799823760986 32.81488800048828 L 15.74799823760986 24.0772705078125 C 15.74799823760986 23.26766395568848 15.42721271514893 22.48861122131348 14.84674072265625 21.92341613769531 L 12.61650848388672 19.67790603637695 L 13.53304195404053 15.09523963928223 C 15.16752624511719 17.11161231994629 17.47413444519043 18.50168800354004 20.11680603027344 18.92940521240234 C 21.03334045410156 19.08216094970703 21.85822296142578 18.33365631103516 21.85822296142578 17.40184783935547 C 21.85822296142578 16.65334701538086 21.30830192565918 16.02705001831055 20.57507514953613 15.90484428405762 C 18.29901695251465 15.5229606628418 16.37429618835449 14.14815902709961 15.21335506439209 12.26926708221436 L 13.76217746734619 9.825177192687988 C 13.22753524780273 8.908644676208496 12.23462104797363 8.37399959564209 11.16533279418945 8.37399959564209 C 10.78344345092773 8.37399959564209 10.40155506134033 8.450379371643066 10.01966667175293 8.603133201599121 L 3.894168376922607 11.10832214355469 C 2.748502731323242 11.58186435699463 2.000000476837158 12.69697952270508 2.000000476837158 13.93429851531982 L 2.000000476837158 17.53932952880859 C 2.000000476837158 18.37948417663574 2.687400341033936 19.06688499450684 3.527555704116821 19.06688499450684 C 4.367712020874023 19.06688499450684 5.055111885070801 18.37948417663574 5.055111885070801 17.53932952880859 L 5.055111885070801 13.94957256317139 L 7.728333950042725 12.80390739440918" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></g></svg>';
+const String _shapeSVG_0eacfad6497f4f508d404665e16c6b16 =
+    '<svg viewBox="88.3 534.6 23.5 23.5" ><g transform="translate(88.29, 534.64)"><path  d="M 0 0 L 23.48171997070313 0 L 23.48171997070313 23.48171997070313 L 0 23.48171997070313 L 0 0 Z" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-0.11, -0.11)" d="M 17.71926307678223 12.82723617553711 L 12.82723617553711 12.82723617553711 L 12.82723617553711 17.71926307678223 C 12.82723617553711 18.25738143920898 12.3869571685791 18.69766616821289 11.84883213043213 18.69766616821289 C 11.31070899963379 18.69766616821289 10.87042713165283 18.25738143920898 10.87042713165283 17.71926307678223 L 10.87042713165283 12.82723617553711 L 5.978404521942139 12.82723617553711 C 5.440281867980957 12.82723617553711 4.999999523162842 12.3869571685791 4.999999523162842 11.84883213043213 C 4.999999523162842 11.31070899963379 5.440281867980957 10.87042713165283 5.978404521942139 10.87042713165283 L 10.87042713165283 10.87042713165283 L 10.87042713165283 5.978404521942139 C 10.87042713165283 5.440281867980957 11.31070899963379 4.999999523162842 11.84883213043213 4.999999523162842 C 12.3869571685791 4.999999523162842 12.82723617553711 5.440281867980957 12.82723617553711 5.978404521942139 L 12.82723617553711 10.87042713165283 L 17.71926307678223 10.87042713165283 C 18.25738143920898 10.87042713165283 18.69766616821289 11.31070899963379 18.69766616821289 11.84883213043213 C 18.69766616821289 12.3869571685791 18.25738143920898 12.82723617553711 17.71926307678223 12.82723617553711 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></g></svg>';
+const String _shapeSVG_9be1261cd3df4b8c83c020beb286da37 =
+    '<svg viewBox="139.6 643.9 19.6 17.7" ><g transform="translate(139.64, 643.85)"><g transform="translate(0.0, 0.0)"><g transform=""><path transform="translate(-2.01, -3.0)" d="M 21.52392387390137 8.778661727905273 L 20.4937744140625 4.491268634796143 C 20.27793312072754 3.608280420303345 19.5126781463623 3.000001192092896 18.61988258361816 3.000001192092896 L 16.4516544342041 3.000001192092896 L 14.47964954376221 3.000001192092896 L 12.7921667098999 3.000001192092896 L 10.82997226715088 3.000001192092896 L 9.142483711242676 3.000001192092896 L 7.160671710968018 3.000001192092896 L 4.992447376251221 3.000001192092896 C 4.10945987701416 3.000000715255737 3.334393262863159 3.618091583251953 3.128363132476807 4.491267681121826 L 2.098211050033569 8.778661727905273 C 1.862748026847839 9.779378890991211 2.078588962554932 10.79971981048584 2.706491231918335 11.60422134399414 C 2.784978866577148 11.7121410369873 2.892899751663208 11.79062938690186 2.981198310852051 11.88873863220215 L 2.981198310852051 18.69755172729492 C 2.981198310852051 19.77675819396973 3.864185333251953 20.65974617004395 4.943392753601074 20.65974617004395 L 18.67874526977539 20.65974617004395 C 19.7579517364502 20.65974617004395 20.64093971252441 19.77675819396973 20.64093971252441 18.69755172729492 L 20.64093971252441 11.88873863220215 C 20.72923851013184 11.80044174194336 20.83716011047363 11.7121410369873 20.9156494140625 11.61403179168701 C 21.54354667663574 10.80953311920166 21.76920127868652 9.779378890991211 21.52392387390137 8.778661727905273 Z M 6.925206661224365 4.962193489074707 L 6.356171131134033 9.730323791503906 C 6.277683258056641 10.36803817749023 5.767512798309326 10.84877586364746 5.169044494628906 10.84877586364746 C 4.68830680847168 10.84877586364746 4.384166717529297 10.56425666809082 4.256624698638916 10.38766002655029 C 4.00153923034668 10.06389617919922 3.913240432739258 9.642024993896484 4.011350154876709 9.239777565002441 L 4.992447376251221 4.962193489074707 L 6.925206661224365 4.962193489074707 Z M 18.5904483795166 4.952383518218994 L 19.62059593200684 9.239777565002441 C 19.71870803833008 9.651835441589355 19.63040924072266 10.06389617919922 19.37532234191895 10.38766002655029 C 19.23797035217285 10.56425666809082 18.94364166259766 10.84877586364746 18.45309638977051 10.84877586364746 C 17.8546257019043 10.84877586364746 17.33464431762695 10.36803817749023 17.26596832275391 9.730323791503906 L 16.69692802429199 4.962193489074707 L 18.5904483795166 4.952383518218994 Z M 15.25471687316895 9.39675235748291 C 15.30377197265625 9.779378890991211 15.1860408782959 10.16200733184814 14.9309549331665 10.44652652740479 C 14.70530223846436 10.70161056518555 14.39135265350342 10.84877586364746 13.98910331726074 10.84877586364746 C 13.33176708221436 10.84877586364746 12.7921667098999 10.26992893218994 12.7921667098999 9.563539505004883 L 12.7921667098999 4.962193489074707 L 14.71511459350586 4.962193489074707 L 15.25471687316895 9.39675235748291 Z M 10.82997226715088 9.563539505004883 C 10.82997226715088 10.26992893218994 10.29037094116211 10.84877586364746 9.564358711242676 10.84877586364746 C 9.23078441619873 10.84877586364746 8.926644325256348 10.70161056518555 8.691181182861328 10.44652652740479 C 8.445906639099121 10.16200733184814 8.32817554473877 9.779378890991211 8.367419242858887 9.39675235748291 L 8.907022476196289 4.962193489074707 L 10.82997226715088 4.962193489074707 L 10.82997226715088 9.563539505004883 Z M 17.6976490020752 18.69755172729492 L 5.924488544464111 18.69755172729492 C 5.384885787963867 18.69755172729492 4.943392753601074 18.25605583190918 4.943392753601074 17.71645545959473 L 4.943392753601074 12.78153610229492 C 5.021880626678467 12.79134654998779 5.09055757522583 12.81096839904785 5.169044494628906 12.81096839904785 C 6.022598266601563 12.81096839904785 6.797665119171143 12.45777416229248 7.366701126098633 11.87892723083496 C 7.955358982086182 12.46758460998535 8.740236282348633 12.81096839904785 9.633035659790039 12.81096839904785 C 10.4865894317627 12.81096839904785 11.25184535980225 12.45777416229248 11.82088088989258 11.89854907989502 C 12.3997278213501 12.45777416229248 13.18460178375244 12.81096839904785 14.06758880615234 12.81096839904785 C 14.89171314239502 12.81096839904785 15.676589012146 12.46758460998535 16.26524925231934 11.87892723083496 C 16.83428382873535 12.45777416229248 17.60935211181641 12.81096839904785 18.46290397644043 12.81096839904785 C 18.5413932800293 12.81096839904785 18.61006927490234 12.79134654998779 18.68855857849121 12.78153800964355 L 18.68855857849121 17.71645545959473 C 18.67874526977539 18.25605583190918 18.23724746704102 18.69755172729492 17.6976490020752 18.69755172729492 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></g></g></g></svg>';
+const String _shapeSVG_9536db5103b244bdb0ece352cdba6382 =
+    '<svg viewBox="338.3 645.4 16.3 14.7" ><g transform="translate(338.3, 645.44)"><path transform="translate(-2.0, -3.0)" d="M 14.25283908843994 9.534847259521484 L 16.70340347290039 9.534847259521484 C 17.6101131439209 9.534847259521484 18.33711242675781 8.799674987792969 18.33711242675781 7.901135444641113 L 18.33711242675781 4.633711814880371 C 18.33711242675781 3.727002143859863 17.6019458770752 3.000000953674316 16.70340347290039 3.000000953674316 L 14.25283908843994 3.000000953674316 C 13.34612846374512 3.000000953674316 12.61912631988525 3.73517107963562 12.61912631988525 4.633711814880371 L 12.61912631988525 5.45056676864624 L 7.726160049438477 5.45056676864624 L 7.726160049438477 4.633711814880371 C 7.726160049438477 3.727002143859863 6.990987777709961 3.000000953674316 6.092447757720947 3.000000953674316 L 3.633711576461792 3.000000953674316 C 2.735170364379883 3.000000953674316 2 3.73517107963562 2 4.633711814880371 L 2 7.901135444641113 C 2 8.807844161987305 2.735170364379883 9.534847259521484 3.633711576461792 9.534847259521484 L 6.08427906036377 9.534847259521484 C 6.990987777709961 9.534847259521484 7.717990398406982 8.799674987792969 7.717990398406982 7.901135444641113 L 7.717990398406982 7.084280014038086 L 9.351701736450195 7.084280014038086 L 9.351701736450195 12.81043434143066 C 9.351701736450195 14.15825080871582 10.44628810882568 15.25283622741699 11.79409790039063 15.25283622741699 L 12.61912631988525 15.25283622741699 L 12.61912631988525 16.0696907043457 C 12.61912631988525 16.97640228271484 13.3542947769165 17.70340156555176 14.25283908843994 17.70340156555176 L 16.70340347290039 17.70340156555176 C 17.6101131439209 17.70340156555176 18.33711242675781 16.96823501586914 18.33711242675781 16.0696907043457 L 18.33711242675781 12.80226802825928 C 18.33711242675781 11.89555931091309 17.6019458770752 11.16855812072754 16.70340347290039 11.16855812072754 L 14.25283908843994 11.16855812072754 C 13.34612846374512 11.16855812072754 12.61912631988525 11.90372753143311 12.61912631988525 12.80226802825928 L 12.61912631988525 13.61912441253662 L 11.79409790039063 13.61912441253662 C 11.35299777984619 13.61912441253662 10.98541355133057 13.251540184021 10.98541355133057 12.81043434143066 L 10.98541355133057 7.084280014038086 L 12.61912631988525 7.084280014038086 L 12.61912631988525 7.901135444641113 C 12.61912631988525 8.799674987792969 13.3542947769165 9.534847259521484 14.25283908843994 9.534847259521484 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></g></svg>';
