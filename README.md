@@ -4,5 +4,6 @@ A one step solution for all the issues and complaints related to commodities to 
 
 ### Technologies used:
 - Flutter
+- Azure Not Services
 - Firebase
 - Firestore
