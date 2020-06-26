@@ -8,3 +8,4 @@ A virtual platform connect locally known to profeesional medical practitioners w
 - Azure Bot Services
 - Firebase
 - Firestore
+- Google Maps API
