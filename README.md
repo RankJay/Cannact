@@ -9,3 +9,5 @@ A virtual platform connect locally known to profeesional medical practitioners w
 - Firebase
 - Firestore
 - Google Maps API
+- Node.js
+- PayTM SDK
