@@ -11,3 +11,6 @@ A virtual platform connect locally known to profeesional medical practitioners w
 - Google Maps API
 - Node.js
 - PayTM SDK
+- Google Pay SDK
+- NAVIC
+- OpenMaps
