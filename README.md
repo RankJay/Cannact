@@ -18,3 +18,4 @@ A 24x7 chat-bot service to help facilitate locally addressed issues.
 - Google Pay SDK
 - NAVIC
 - OpenMaps
+- InVision
